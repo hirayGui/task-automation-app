@@ -16,10 +16,17 @@ O projeto foi desenvolvido como uma iniciativa pessoal com o objetivo de aprofun
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias utilizadas
 
-* **Python**
-* **CSV** — utilizado como fonte de dados para criação e manipulação do DataFrame.
+### Linguagem
+
+- [**Python**](https://docs.python.org/3/) — linguagem principal utilizada no desenvolvimento da aplicação.
+
+### Bibliotecas
+
+- [**PyAutoGUI**](https://pyautogui.readthedocs.io/) — utilizada para automação de tarefas através do controle de mouse e teclado.
+- [**Time**](https://docs.python.org/3/library/time.html) — utilizada para controle de tempo e inserção de intervalos durante a execução das automações.
+- [**Pandas**](https://pandas.pydata.org/docs/) — utilizada para manipulação e processamento dos dados, incluindo a criação e utilização de DataFrames.
 
 ---
 
@@ -27,16 +34,34 @@ O projeto foi desenvolvido como uma iniciativa pessoal com o objetivo de aprofun
 
 ### Pré-requisitos
 
-* Python instalado
-* Uma IDE ou ambiente de desenvolvimento compatível com Python
+Antes de executar o projeto, certifique-se de possuir:
+
+- **Python 3.x** instalado;
+- Uma IDE ou ambiente de desenvolvimento compatível com Python;
+- As bibliotecas utilizadas pelo projeto instaladas no ambiente Python.
+
+### Instalação das dependências
+
+As bibliotecas externas podem ser instaladas utilizando o `pip`:
+
+```bash
+pip install pyautogui pandas
+```
+
+> A biblioteca `time` faz parte da biblioteca padrão do Python, portanto não precisa ser instalada separadamente.
 
 ### Execução
 
-Clone o repositório e abra o projeto na IDE de sua preferência.
+Após instalar as dependências:
 
-Após configurar o ambiente, execute o arquivo principal da aplicação diretamente pela IDE.
+1. Clone o repositório;
+2. Abra o projeto na IDE de sua preferência;
+3. Certifique-se de que o ambiente Python está configurado corretamente;
+4. Execute o arquivo principal da aplicação.
 
-> As instruções de execução poderão ser atualizadas conforme o projeto evoluir e novas dependências forem adicionadas.
+```bash
+python main.py
+```
 
 ---
 <!-- ## 📸 Screenshots
