@@ -2,7 +2,6 @@
 import pyautogui as pg
 import time
 import pandas as pd
-import openpyxl as op
 
 # Entrando no sistema para o cadastro dos produtos
 pg.PAUSE = 0.5
